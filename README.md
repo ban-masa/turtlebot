@@ -18,10 +18,13 @@ ROS Wiki : (http://www.ros.org/wiki/Robots/TurtleBot)
 
 2. 実行方法
   ```
+  git clone https://github.com/ban-masa/turtlebot
+  git checkout hokuyo_test
+  source ~/catkin_ws/devel/setup.bash
+  catkin build
   export TURTLEBOT_BASE="kobuki"
   export TURTLEBOT_STACKS="hexagons"
   export TURTLEBOT_3D_SENSOR="hokuyo"
-  source ~/catkin_ws/devel/setup.bash
   roslaunch turtlebot_gazebo turtlebot_world.launch
   ```
 
