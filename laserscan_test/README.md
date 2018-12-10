@@ -1,5 +1,8 @@
 - /scan topicをsubscribeするテスト
   - scan_sample.cpp: サンプルコード。range_maxを取得して表示するだけ。
+  ```
+  rosrun laserscan_test scan_sample
+  ```
   - scan_visualizer.cpp: 可視化用コード。
   ```
   roslaunch laserscan_test scan_visualize.launch
