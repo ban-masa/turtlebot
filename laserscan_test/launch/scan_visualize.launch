@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="laserscan_test" type="scan_visualizer" name="scan_visualizer" />
+  <node pkg="image_view" type="image_view" name="image_view" args="image:=/laser_image" />
+</launch>
